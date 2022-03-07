@@ -4,6 +4,7 @@ import useStyles from './styles';
 // import { mergeClasses } from '@material-ui/styles';
 import FileBase from 'react-file-base64';
 import { useDispatch } from 'react-redux';
+import { createPost } from '../../actions/posts';
 
 
 const Form = () => {
@@ -14,15 +15,17 @@ const Form = () => {
     message: '',
     tags: '',
     selectedFile: ''
-
   })
 
   const dispatch = useDispatch();
 
   const classes = useStyles();
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
 
+    e.preventDefault();
+
+    dispatch(createPost(postData))
   }
 
   const clear = () => {
@@ -81,7 +84,7 @@ const Form = () => {
           <FileBase
             type="file"
             multiple={false}
-            onDOne={({ base64 }) => setPostData({ ...postData, selectedFile: base64 })}
+            onDone={({ base64 }) => setPostData({ ...postData, selectedFile: base64 })}
           />
         </div>
 
