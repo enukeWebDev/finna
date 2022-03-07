@@ -1,0 +1,3 @@
+finna - is a gen z term meaning "I am going to"
+
+This project is currently on going...
