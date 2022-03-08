@@ -9,3 +9,8 @@ This project is currently on going...
   - Connected to MongoDB
 
   - Next is Login and Registration, Authentication
+
+  1. Main Dashboard
+
+!["MainDashboard"](https://github.com/enukeWebDev/finna/blob/main/client/src/images/Screen%20Shot%202022-03-08%20at%204.24.17%20PM.png?raw=true)
+
