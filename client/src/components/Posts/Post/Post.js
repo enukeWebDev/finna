@@ -67,17 +67,17 @@ const Post = ({ post, setCurrentId }) => {
       <CardContent>
         <Typography
           className={classes.title}
-          variant="h5" gutterBottom>{post.message}
+          variant="h5" gutterBottom>{post.title}
         </Typography>
       </CardContent>
 
-      {/* <CardContent>
+      <CardContent>
         <Typography
-          variant="body2"
-          color="textSecondary"
-          component="p">{post.message}
+          variant="h5"
+          // color="textSecondary"
+          gutterBottom>{post.message}
         </Typography>
-      </CardContent> */}
+      </CardContent>
 
       <CardActions className={classes.cardActions}>
         <Button size="small"

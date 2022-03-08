@@ -36,6 +36,7 @@ const Form = ({ currentId, setCurrentId }) => {
     e.preventDefault();
 
     if (currentId) {
+
       dispatch(updatePost(currentId, postData))
 
     }
@@ -69,7 +70,7 @@ const Form = ({ currentId, setCurrentId }) => {
         onSubmit={handleSubmit}>
 
         <Typography
-          variant="h6">{currentId ? 'Editing' : 'Creating'}
+          variant="h6">{currentId ? 'Editing ' : 'Creating '}
           I am going to...
         </Typography>
 
