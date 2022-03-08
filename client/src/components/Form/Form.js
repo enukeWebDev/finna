@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { TextField, Button, Typography, Paper } from '@material-ui/core';
 import useStyles from './styles';
-// import { mergeClasses } from '@material-ui/styles';
 import FileBase from 'react-file-base64';
 import { useDispatch, useSelector } from 'react-redux';
 import { createPost, updatePost } from '../../actions/posts';
@@ -70,8 +69,8 @@ const Form = ({ currentId, setCurrentId }) => {
         onSubmit={handleSubmit}>
 
         <Typography
-          variant="h6">{currentId ? 'Editing ' : 'Creating '}
-          I am going to...
+          variant="h6">{currentId ? 'Mix the ' : 'Spill the '}
+          T
         </Typography>
 
         <TextField

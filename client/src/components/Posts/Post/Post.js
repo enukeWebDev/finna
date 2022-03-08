@@ -1,17 +1,3 @@
-// import React from 'react';
-// import useStyles from './styles';
-
-// const Post = () => {
-
-//   const classes = useStyles();
-
-//   return (
-//     <h1>POST</h1>
-//   )
-// }
-
-// export default Post;
-
 import React from 'react';
 import { Card, CardActions, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
@@ -34,7 +20,7 @@ const Post = ({ post, setCurrentId }) => {
         image={post.selectedFile}
         title={post.title}
       // image={post.selectedFile ||
-      //   'https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png'} title={post.title}
+      // 'https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png'} title={post.title}
       />
       <div className={classes.overlay}>
         <Typography

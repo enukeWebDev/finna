@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
-import finna from './images/finna.png';
+import spill from './images/spill.png';
 
 import { getPosts } from './actions/posts';
 import { useDispatch } from 'react-redux';
@@ -23,9 +23,13 @@ const App = () => {
 
       <AppBar className={classes.appBar} position="static" color="inherit">
 
-        <Typography className={classes.heading} variant="h2" align="center">finna</Typography>
+        <Typography
+          className={classes.heading}
+          variant="h2" align="center">
+          ...spill the T
+        </Typography>
 
-        <img className={classes.image} src={finna} alt="finna" height="60" />
+        <img className={classes.image} src={spill} alt="spill" height="60" />
 
       </AppBar>
 
