@@ -35,15 +35,25 @@ const Form = ({ currentId, setCurrentId }) => {
 
     if (currentId) {
       dispatch(updatePost(currentId, postData))
+
     }
     else {
 
       dispatch(createPost(postData))
+
     }
+    clear();
   }
 
   const clear = () => {
-
+    setCurrentId(null);
+    setPostData({
+      creator: '',
+      title: '',
+      message: '',
+      tags: '',
+      selectedFile: ''
+    })
   }
 
   return (
@@ -56,7 +66,7 @@ const Form = ({ currentId, setCurrentId }) => {
         noValidate className={`${classes.root} ${classes.form}`}
         onSubmit={handleSubmit}>
 
-        <Typography variant="h6">I am going to...</Typography>
+        <Typography variant="h6">{currentId ? 'Editing' : 'Creating'} I am going to...</Typography>
 
         <TextField
           name="creator"
