@@ -17,7 +17,9 @@ const Form = ({ currentId, setCurrentId }) => {
     selectedFile: ''
   })
 
-  const post = useSelector((state) => currentId ? state.posts.find((p) => p._id === currentId) : null);
+  const post = useSelector(
+    (state) => currentId ?
+      state.posts.find((p) => p._id === currentId) : null);
 
   const dispatch = useDispatch();
 
@@ -66,7 +68,10 @@ const Form = ({ currentId, setCurrentId }) => {
         noValidate className={`${classes.root} ${classes.form}`}
         onSubmit={handleSubmit}>
 
-        <Typography variant="h6">{currentId ? 'Editing' : 'Creating'} I am going to...</Typography>
+        <Typography
+          variant="h6">{currentId ? 'Editing' : 'Creating'}
+          I am going to...
+        </Typography>
 
         <TextField
           name="creator"
