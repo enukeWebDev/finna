@@ -12,5 +12,5 @@ This project is currently on going...
 
   1. Main Dashboard
 
-!["MainDashboard"](https://github.com/enukeWebDev/finna/blob/main/client/src/images/Screen%20Shot%202022-03-08%20at%204.24.17%20PM.png?raw=true)
+!["MainDashboard"](https://github.com/enukeWebDev/finna/blob/main/client/src/images/maindashboard.png?raw=true)
 
