@@ -37,7 +37,7 @@ Getting Started:
 
 Design/Plan/Layout of the Project:
 
-!["Layout/Design"](https://github.com/enukeWebDev/finna/blob/main/client/src/images/spilltheT.png?raw=true)
+!["Layout/Design"](https://github.com/enukeWebDev/finna/blob/main/client/src/images/plan-layout.png?raw=true)
 
 Screenshots of the Final Project:
 
