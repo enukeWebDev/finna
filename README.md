@@ -11,7 +11,7 @@ Funtionality of the Application:
     - delete a T
     - edit a T
     - submission form has clear functionality if user made a mistake and would like to restart 
-    - 
+    - fully responsive across all platform size
   
   - Plan for the coming weeks
     - add authetication
@@ -34,6 +34,10 @@ Getting Started:
 
   - Server side 
     - npm start
+
+Design/Plan/Layout of the Project:
+
+!["Layout/Design"](https://github.com/enukeWebDev/finna/blob/main/client/src/images/spilltheT.png?raw=true)
 
 Screenshots of the Final Project:
 
