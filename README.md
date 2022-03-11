@@ -10,7 +10,14 @@ spill the tea - scoop, news, gossip
 
   - Next is Login and Registration, Authentication
 
-  1. Main Dashboard
+1. Main Dashboard
 
 !["MainDashboard"](https://github.com/enukeWebDev/finna/blob/main/client/src/images/spilltheT.png?raw=true)
 
+2. Edit
+
+!["MainDashboard"](https://github.com/enukeWebDev/finna/blob/main/client/src/images/edit.png?raw=true)
+
+3. Delete
+
+!["MainDashboard"](https://github.com/enukeWebDev/finna/blob/main/client/src/images/delete.png?raw=true)
