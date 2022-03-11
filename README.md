@@ -1,6 +1,6 @@
 This project is a fully functioning C-R-U-D application.
 
-finna - is a gen z term meaning "I am going to"
+finna - is a gen z term meaning "I am going to"<br />
 spill the tea - scoop, news, gossip
 
 Funtionality of the Application:
@@ -30,10 +30,12 @@ Dependencies:
 
 Getting Started:
   - Client side 
-    npm start
+    - npm start
 
   - Server side 
-    npm start
+    - npm start
+
+Screenshots of the Final Project:
 
 1. Main Dashboard
 
