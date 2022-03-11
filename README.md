@@ -12,5 +12,5 @@ spill the tea - scoop, news, gossip
 
   1. Main Dashboard
 
-!["MainDashboard"](https://github.com/enukeWebDev/finna/blob/main/client/src/images/maindashboard.png?raw=true)
+!["MainDashboard"](https://github.com/enukeWebDev/finna/blob/main/client/src/images/spilltheT.png?raw=true)
 
